@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        a {
+            color: green;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: black;
+        }
+
+        a:active {
+            color: rgb(39, 39, 245);
+        }
+
+        a::before {
+        content: '🔗 ';
+        color: gray;
+        }
+
+        a::after {
+            content: '[link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgreen;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Personalizando Links
+    </h1>
+    <ul>
+        <a href="#">
+            <li>
+                Youtube
+            </li>
+        </a>
+        <a href="#">
+            <li>
+                Instagram
+            </li>
+        </a>
+        <a href="#">
+            <li>
+                Email
+            </li>
+        </a>
+    </ul>
+</body>
+</html>

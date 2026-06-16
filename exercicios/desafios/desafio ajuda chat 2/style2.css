@@ -1,0 +1,39 @@
+@charset "UTF-8"
+
+p{
+    color: #0D0D0D;
+    font-size: 13px;
+}
+
+ body {
+            background-image: linear-gradient( to right, #BFBFBF, #8C8C8C , #737373, #404040 ,#0D0D0D );
+            background-attachment: fixed;
+        }
+
+img {
+     width: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    
+    }
+   main {
+    width: 300px;
+    padding: 20px;
+    margin: 50px auto;
+}
+
+a {
+    display: block;
+    background-color: #404040;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+a:hover {
+    background-color: #0D0D0D;
+}
